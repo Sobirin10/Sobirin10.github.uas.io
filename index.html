@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            padding-left: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        ul li strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .hotel-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .hotel {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 1rem);
+            margin-right: 1rem;
+        }
+
+        .hotel h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .hotel p {
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="date"] {
+            width: calc(100% - 2px);
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button.btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        button.btn:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Indonesian Tourism</h1>
+        <nav>
+            <ul>
+                <li><a href="kebudayaan.html">Kebudayaan</a></li>
+                <li><a href="wisata.html">Tempat Wisata</a></li>
+                <li><a href="favorit.html">Hotel Favorit</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kebudayaan">
+            <h2>Kebudayaan Indonesia</h2>
+            <p>Indonesia adalah negara yang kaya akan kebudayaan. Setiap daerah memiliki keunikan etnik yang menarik, seperti:</p>
+            <ul>
+                <li><strong>Tari Kecak dari Bali</strong>: Tarian yang menggambarkan cerita Ramayana.</li>
+                <li><strong>Upacara Ngaben</strong>: Upacara pembakaran jenazah di Bali.</li>
+                <li><strong>Tradisi Sisingaan dari Jawa Barat</strong>: Upacara mengarak anak yang sunat.</li>
+                <li><strong>Tari Piring dari Sumatera Barat</strong>: Tarian yang menggunakan piring sebagai properti.</li>
+                <li><strong>Upacara Kasada di Bromo</strong>: Ritual masyarakat Tengger melemparkan sesajen ke kawah Gunung Bromo.</li>
+                <li><strong>Tradisi Karapan Sapi di Madura</strong>: Lomba balap sapi yang menjadi atraksi wisata.</li>
+                <!-- Tambahkan informasi kebudayaan lainnya -->
+            </ul>
+        </section>
+
+        <section id="wisata">
+            <h2>Tempat Wisata Terbaik di Indonesia</h2>
+            <ul>
+                <li><strong>Borobudur, Jawa Tengah</strong>: Candi Buddha terbesar di dunia, terletak di Magelang.</li>
+                <li><strong>Raja Ampat, Papua Barat</strong>: Surga bawah laut dengan keindahan terumbu karang.</li>
+                <li><strong>Danau Toba, Sumatera Utara</strong>: Danau vulkanik terbesar di Asia Tenggara, memiliki Pulau Samosir di tengahnya.</li>
+                <li><strong>Ubud, Bali</strong>: Pusat seni dan budaya Bali, dikelilingi sawah dan hutan.</li>
+                <li><strong>Taman Nasional Komodo, Nusa Tenggara Timur</strong>: Habitat asli komodo, reptil terbesar di dunia.</li>
+                <!-- Tambahkan tempat wisata lainnya -->
+            </ul>
+        </section>
+
+        <section id="hotel">
+            <h2>Hotel Favorit</h2>
+            <div class="hotel-list">
+                <div class="hotel">
+                    <h3>Hotel Indonesia Kempinski</h3>
+                    <p><strong>Alamat:</strong> Jl. MH Thamrin No.1, Jakarta</p>
+                    <p><strong>Fasilitas:</strong> Kolam renang, spa, restoran, WiFi gratis</p>
+                    <p><strong>Harga:</strong> Rp 2.000.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>The Mulia Bali</h3>
+                    <p><strong>Alamat:</strong> Jl. Raya Nusa Dua Selatan, Bali</p>
+                    <p><strong>Fasilitas:</strong> Pantai pribadi, kolam renang, restoran, pusat kebugaran</p>
+                    <p><strong>Harga:</strong> Rp 3.000.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>JW Marriott Jakarta</h3>
+                    <p><strong>Alamat:</strong> Jl. DR Ide Anak Agung Gde Agung, Jakarta</p>
+                    <p><strong>Fasilitas:</strong> Spa, kolam renang, ruang rapat, WiFi gratis</p>
+                    <p><strong>Harga:</strong> Rp 1.800.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>Ayana Resort and Spa</h3>
+                    <p><strong>Alamat:</strong> Jl. Karang Mas Sejahtera, Jimbaran, Bali</p>
+                    <p><strong>Fasilitas:</strong> Spa, pantai pribadi, infinity pool, restoran mewah</p>
+                    <p><strong>Harga:</strong> Rp 3.500.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>Grand Hyatt Jakarta</h3>
+                    <p><strong>Alamat:</strong> Jl. MH Thamrin Kav. 28-30, Jakarta</p>
+                    <p><strong>Fasilitas:</strong> Pusat kebugaran, kolam renang, restoran, layanan kamar 24 jam</p>
+                    <p><strong>Harga:</strong> Rp 2.500.000 per malam</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="transaksi">
+            <h2>Transaksi Pemesanan</h2>
+            <form id="bookingForm" onsubmit="processTransaction(event)">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="hotel">Pilih Hotel:</label>
+                    <select id="hotel" name="hotel">
+                        <option value="kempinski">Hotel Indonesia Kempinski</option>
+                        <option value="mulia">The Mulia Bali</option>
+                        <option value="marriott">JW Marriott Jakarta</option>
+                        <option value="ayana">Ayana Resort and Spa</option>
+                        <option value="hyatt">Grand Hyatt Jakarta</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal">Tanggal Check-in:</label>
+                    <input type="date" id="tanggal" name="tanggal" required>
+                </div>
+                <button type="submit" class="btn">Pesan Sekarang</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indonesian Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>

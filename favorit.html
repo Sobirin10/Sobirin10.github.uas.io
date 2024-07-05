@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Favorit di Indonesia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .hotel-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .hotel {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+        }
+        .hotel:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .hotel h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .hotel p {
+            margin-bottom: 0.5rem;
+        }
+        .btn-back {
+            display: inline-block;
+            background: #ff7f50;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 2rem;
+            transition: background-color 0.3s ease;
+        }
+        .btn-back:hover {
+            background: #ff6347;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Favorit di Indonesia</h1>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>Hotel Terbaik di Indonesia</h2>
+            <div class="hotel-list">
+                <div class="hotel">
+                    <h3>Hotel Indonesia Kempinski</h3>
+                    <p><strong>Alamat:</strong> Jl. MH Thamrin No.1, Jakarta</p>
+                    <p><strong>Fasilitas:</strong> Kolam renang, spa, restoran, WiFi gratis</p>
+                    <p><strong>Harga:</strong> Rp 2.000.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>The Mulia Bali</h3>
+                    <p><strong>Alamat:</strong> Jl. Raya Nusa Dua Selatan, Bali</p>
+                    <p><strong>Fasilitas:</strong> Pantai pribadi, kolam renang, restoran, pusat kebugaran</p>
+                    <p><strong>Harga:</strong> Rp 3.000.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>JW Marriott Jakarta</h3>
+                    <p><strong>Alamat:</strong> Jl. DR Ide Anak Agung Gde Agung, Jakarta</p>
+                    <p><strong>Fasilitas:</strong> Spa, kolam renang, ruang rapat, WiFi gratis</p>
+                    <p><strong>Harga:</strong> Rp 1.800.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>Ayana Resort and Spa</h3>
+                    <p><strong>Alamat:</strong> Jl. Karang Mas Sejahtera, Jimbaran, Bali</p>
+                    <p><strong>Fasilitas:</strong> Spa, pantai pribadi, infinity pool, restoran mewah</p>
+                    <p><strong>Harga:</strong> Rp 3.500.000 per malam</p>
+                </div>
+                <div class="hotel">
+                    <h3>Grand Hyatt Jakarta</h3>
+                    <p><strong>Alamat:</strong> Jl. MH Thamrin Kav. 28-30, Jakarta</p>
+                    <p><strong>Fasilitas:</strong> Pusat kebugaran, kolam renang, restoran, layanan kamar 24 jam</p>
+                    <p><strong>Harga:</strong> Rp 2.500.000 per malam</p>
+                </div>
+            </div>
+        </section>
+        <a href="index.html" class="btn-back">Back</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Indonesian Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
